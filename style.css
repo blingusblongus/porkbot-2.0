@@ -1,0 +1,14 @@
+.display {
+    background-image: url('http://2.bp.blogspot.com/-r8NqF3US57g/TzbBLw_H8BI/AAAAAAAAPpc/MBCJaj_5Xuk/s1600/PERGAMINOS+%252857%2529.png');
+    background-size: cover;
+    height: 523px;
+    width: 800px;
+    
+}
+
+.display__text {
+    text-align: center;
+    font-family: 'IM Fell English', serif;
+    font-size: 40px;
+    padding: 120px 130px;
+}
