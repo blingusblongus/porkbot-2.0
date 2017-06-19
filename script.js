@@ -2,6 +2,10 @@ const display = document.querySelector('.display__text');
 
 display.innerHTML = test();
 
+$('body').click(function(){
+    display.innerHTML = test();
+})
+
 function test() {
     
     const prefixes = ["Yarr,", "Listen up,", "Avast,", "Incoming transmission,", 'Ahoy there,', 'Shudder ye rudder,', 'Blisterin\' barnacles,'];
