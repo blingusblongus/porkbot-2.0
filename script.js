@@ -4,10 +4,10 @@ display.innerHTML = test();
 
 function test() {
     
-    const prefixes = ["Yarr,", "Listen up,", "Avast,", "Incoming transmission,", 'Ahoy there,'];
+    const prefixes = ["Yarr,", "Listen up,", "Avast,", "Incoming transmission,", 'Ahoy there,', 'Shudder ye rudder,', 'Blisterin\' barnacles,'];
     const addresses = ["mateys,", "crew,", "ensign,", "ye landlubbers,", "freebooters,", "privateers,", "ye old salts,", "scallywags,", "ye seadogs,", "ye seadoges,"];
-    const commands = ["pack your duffles", "batten down the hatches", 'heave ho', 'get ready to rock', 'prepare to plunder', 'grab your black jacks', 'hoist the Jolly Roger', 'prepare for warp speed', 'weigh anchor', 'run out the long nines', 'throw \'em in the brig', 'set a course for Funkytown', 'arm photon torpedos', 'drink up, me hearties', 'set phasers to stun', 'get ready to dock'];
-    const suffixes = ['Yarr!', 'Shiver me timbers!', 'Blimey!', 'Thar she blows!', 'Yo ho ho!', 'A l\'abordage!'];
+    const commands = ["pack your duffles", "batten down the hatches", 'heave ho', 'get ready to rock', 'prepare to plunder', 'grab your black jacks', 'hoist the Jolly Roger', 'prepare for warp speed', 'weigh anchor', 'run out the long nines', 'throw \'em in the brig', 'set a course for Funkytown', 'arm photon torpedos', 'drink up, me hearties', 'set phasers to stun', 'get ready to dock', 'man the helm', 'fire when ready', 'fire at will', 'weigh anchor', 'hoist the sails', 'walk the plank'];
+    const suffixes = ['Yarr!', 'Shiver me timbers!', 'Blimey!', 'Thar she blows!', 'Yo ho ho!', 'A l\'abordage!', 'Land, Ho!'];
     
     let commandSeed = Math.floor(Math.random()*(commands.length - 1));
     
