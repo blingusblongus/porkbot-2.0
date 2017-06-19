@@ -22,7 +22,7 @@ function test() {
     let command2 = commands[Math.floor(Math.random()*(commands.length - 1))];
     let suffix = rand(suffixes);
     let venue = 'The Bowery Electric';
-    let date = 'Thursday';
+    let date = 'Friday';
     let porkMessage = rand([`Porky's will be soon be docking at ${venue}. Catch us there on ${date}`, `Porky's is en route to ${venue}. Rendezvous with us on ${date}`]);
     
     return `${prefix} ${address} ${command1} and ${command2}! ${porkMessage}! ${suffix}`;
