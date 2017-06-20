@@ -2,7 +2,7 @@ const display = document.querySelector('.display__text');
 
 display.innerHTML = test();
 
-$('body').click(function(){
+$(document).on('touchend click', 'body', function(e){
     display.innerHTML = test();
 })
 
